@@ -1,5 +1,6 @@
 import { chromium, Page, Browser, BrowserContext } from '@playwright/test'
-import { BeforeAll, AfterAll, Before, After, Status } from '@cucumber/cucumber'
+import { BeforeAll, AfterAll, Before, After, Status ,setDefaultTimeout } from '@cucumber/cucumber'
+setDefaultTimeout(60 * 1000);
 import { pageFixture } from './pageFixture';
 import { invokeBrowser } from '../Helper/browsers';
 import { getENV } from '../Helper/env/env';

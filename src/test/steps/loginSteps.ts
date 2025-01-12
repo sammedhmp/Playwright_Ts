@@ -1,10 +1,6 @@
 import { Given, When, Then } from '@cucumber/cucumber';
-// import { chromium, Page, Browser, BrowserContext } from '@playwright/test'
 import { pageFixture } from '../utiles/pageFixture';
 import LoginPage from '../pageObjects/LoginPage';
-
-// let browser:Browser;
-// let context:BrowserContext;
 
 const loginPage = new LoginPage()
 
