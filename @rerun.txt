@@ -1,2 +1,0 @@
-src\test\features\login.feature:10
-src\test\features\loginScenario.feature:11
